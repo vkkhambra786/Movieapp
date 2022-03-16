@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Movie from "./Movie";
-import classes from "./Moviedashboar.module.css";
+import classes from "./Moviess.module.css";
 
 const movies = [
   {

@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 import React from "react";
 import Banner from "./Components/Banner";
 import Movies from "./Components/Movies";
-import MoviesMulti from "./Components/Moviedsahboard";
+import MoviesMulti from "./Components/Moviess";
 function App() {
   return (
     <React.Fragment>
