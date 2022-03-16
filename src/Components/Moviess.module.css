@@ -1,7 +1,8 @@
 .movies-cont {
-    display: grid;
-    width: 1300px;
-    margin: auto;
-    gap: 32px;
-    grid-template-columns: repeat(4, 300px);
-  }
+  width: 1300px;
+  margin: auto;
+  display: grid;
+
+  grid-template-columns: repeat(4, 300px);
+  gap: 32px;
+}
