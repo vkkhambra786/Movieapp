@@ -44,31 +44,7 @@ export default class Movies extends Component {
             </div>
           ))}
         </div>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <nav aria-label="Page navigation example">
-            <ul className="pagination">
-              <li className="page-item">
-                <a className="page-link" href="#">
-                  Previous
-                </a>
-              </li>
-
-              {this.state.parr.map((value) => (
-                <li className="page-item">
-                  <a className="page-link" href="#">
-                    1
-                  </a>
-                </li>
-              ))}
-
-              <li className="page-item">
-                <a className="page-link" href="#">
-                  Next
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <div style={{ display: "flex", justifyContent: "center" }}></div>
       </div>
     );
   }
