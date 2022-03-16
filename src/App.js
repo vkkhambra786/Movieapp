@@ -4,14 +4,14 @@ import Navbar from "./Components/Navbar";
 import React from "react";
 import Banner from "./Components/Banner";
 import Movies from "./Components/Movies";
-import MoviesDashboard from "./Components/Moviedsahboard";
+import MoviesMulti from "./Components/Moviedsahboard";
 function App() {
   return (
     <React.Fragment>
       <Navbar />
       <Banner />
       <Movies />
-      <MoviesDashboard />
+      <MoviesMulti />
     </React.Fragment>
   );
 }

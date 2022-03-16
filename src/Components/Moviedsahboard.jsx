@@ -254,8 +254,8 @@ const movies = [
   },
 ];
 
-const MoviesDashboard = () => {
-  const moviesContainer = movies.map((movie) => (
+const MoviesMulti = () => {
+  const moviess = movies.map((movie) => (
     <Movie
       movie_name={movie.movie_name}
       genre={movie.genre}
@@ -266,9 +266,9 @@ const MoviesDashboard = () => {
   ));
   return (
     <Fragment>
-      <div className={classes["movies-cont"]}>{moviesContainer}</div>
+      <div className={classes["movies-cont"]}>{moviess}</div>
     </Fragment>
   );
 };
 
-export default MoviesDashboard;
+export default MoviesMulti;
